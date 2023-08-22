@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Khalifa Mustapha - Portfolio</title>
+
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165361695-1"></script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'UA-165361695-1');
+     </script>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Portfolio - Iliyasu Mustapha Iliyasu(Khalifa)">
+    <meta name="description" content="Khalifa is a self-taught tech fanatic with knowledge in front-end development and UI / UX design and invulnerable enthusiasm to keep improving at what he does. In the coming days, he sees himself as a cybersecurity expert to defend the digital life of billions.">
+    <meta name="keywords" content="portfolio, Mustapha, personal website, resume, programming, web development, cybersecurity, network security, information security, red teamer, ethical hacking, technology, digital creation">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="Iliyasu Mustapha Iliyasu (Khalifa)">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="theme-color" content="#3374F3">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Iliyasu Mustapha Iliyasu (Khalifa) - Portfolio">
+    <meta property="og:description" content="Mustapha is a self-taught tech fanatic with knowledge in front-end development and UI / UX design and invulnerable enthusiasm to keep improving at what he does.">
+	<meta property="og:image" content="https://hellokhalifa.me/assent/opengraph.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="854">
+    <meta property="og:url" content="https://hellokhalifa.me">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/botton.css">
+    
+</head>
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo_container">
+                <b>Khalifa</b>
+                <span>M</span>
+                <span>u</span>
+                <span>s</span>
+                <span>t</span>
+                <span>a</span>
+                <span>p</span>
+                <span>h</span>
+                <span>a</span>
+                <b>.</b>
+            </div>
+
+            <nav class="header_nav">
+                <a href="https://khalifamustapha.medium.com/">Blog</a>
+                <a href="./certificate.html">Certifications</a>
+                <a href="mailto:mustaphailiyasu070@gmail.com">Contact</a>
+            </nav>
+            <span class="mobile_nav_btn" onclick="openMobileNav()">
+                <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1H17M1 9H17" stroke="#3374F3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+        </header>
+
+        <div class="quick_intro">
+            <div class="quick_picture">
+                <picture>
+                    <source media="(max-width:768px)" srcset="./images/profile_photo2.png">
+                    <img src="./images/profile_photo2.png" alt="Khalifa's self portrait">
+                </picture>
+            </div>
+
+            <div class="quick_intro_text_group">
+                <h1>Hello! I'm Mustapha.</h1>
+                <p>Mustapha is an Aspiring Ethical Hacker, Cloud Enthusiast, Base web designer & Front-end developer focused on crafting clean & user-friendly experiences. He is passionate about building excellent software that improves the lives of those around him.</p>
+                <button class="button-85" role="button"><a href="./assent/Mustapha_Resume .pdf" download="Resume">Download Résumé</a></button>
+            </div>
+
+            <div class="landing_quick_links">
+                <a href="https://www.linkedin.com/in/khalifa-mustapha/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/KhalifaMustapha" target="_blank">GitHub</a>
+                <a href="https://twitter.com/KhalifaMustaph6" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <aside class="modal_overlay" id="mobile_nav_overlay">
+        <div class="mobile_nav_wrapper">
+            <span class="mobile_nav_close_btn" onclick="closeMobileNav()">
+                <img src="./icons/cross.svg" alt="x">
+            </span>
+            
+            <nav>
+                <a href="https://khalifamustapha.medium.com/" target="_blank" onclick="closeMobileNav()">Blog</a>
+                <a href="./certificate.html" onclick="closeMobileNav(); openComingSoonModal()">Certifications</a>
+                <a href="mailto:mustaphailiyasu070@gmail.com" onclick="closeMobileNav()">Contact</a> 
+                <a href="https://www.linkedin.com/in/khalifa-mustapha/" target="_blank" onclick="closeMobileNav()">LinkedIn</a>
+                <a href="https://github.com/KhalifaMustapha" target="_blank" onclick="closeMobileNav()">GitHub</a>
+                <a href="https://twitter.com/KhalifaMustaph6" target="_blank" onclick="closeMobileNav()">Twitter</a>
+            </nav>
+        </div>
+    </aside>
+
+    <section class="about-section">
+        <header>
+        <div class="title-section">
+            <h1>About <span>Me</span></h1>
+            <span class="titile-bg">Résumé</span>
+        </div>
+
+        <div class="page-number">
+            <h2>01</h2>
+        </div>
+        </header>
+
+        <div class="main_container">
+            <div class="container">
+                <p><span class="span_color">Mustapha</span> is a self-taught tech enthusiast with diverse skills in web development, UI/UX design and testing, programming/coding, and a keen interest in learning new things. He is highly passionate about cybersecurity and cloud computing. In a nutshell, He sees himself as an ethical hacker who ensures the digital safety and security of billions. I aim to find a position in a diverse team that will allow me to broaden my knowledge and become a qualified asset to the industry.</p>
+            </div> 
+
+            <div class="container_2" id="experiences">
+                <h1><span class="span_color">Experiences</span></h1>
+                <p>Web Developer, UI / UX Designer and Programmer, 2018 - 2022. My role was to design user interfaces and user experience solutions for various digital products. I was also responsible for the development of several web applications. Other functions and responsibilities include:</p>
+                <ul>
+                    <li>To design and develop unique digital products.</li>
+                    <li>Teach their student the basic of the operating system and web development using semantic HTML, CSS, Javascript and other Programming Languages.</li>
+                    <li>To collaborate with team members to build killer solutions.</li>
+                </ul>
+            </div>
+        </div>
+            <div class="container_3">
+                <h1 class="span_color">Technologies</h1>
+                <span class="technologies-span">Python</span>
+                <span class="technologies-span">C++</span>
+                <span class="technologies-span">Java</span>
+                <span class="technologies-span">HTML5</span>
+                <span class="technologies-span">CSS</span>
+                <span class="technologies-span">JavaScript</span>
+                <span class="technologies-span">Figma</span>
+                <span class="technologies-span">Git & GitHub</span>
+                <span class="technologies-span">Google Workspace</span>
+                <span class="technologies-span">Linux</span>
+                <span class="technologies-span">Php</span>
+                <span class="technologies-span">Database</span>
+                <span class="technologies-span">Other...</span>
+            </div>
+    </section>
+
+    <section class="academic_section">
+        <header>
+        <div class="title-section">
+            <h1>Aca<span>demic</span></h1>
+            <span class="titile-bg">Education</span>
+        </div>
+
+        <div class="page-number">
+            <h2>02</h2>
+        </div>
+       </header>
+
+        <div class="main_academic">
+            <div class="acad_container_1">
+                <h1 class="para-header">Bachelor's of Computer Application</h1>
+                <p><span class="lang_2">Gandhi Institute of Technology and Management (GITAM), Bengaluru, India 2022-2025.</span></p>
+                <p class="para-acad-1">As a BCA student, I am learning computer science and software fundamentals from some of GITAM University's most gifted and supportive professors. Programming languages (Python, C++, Javascript, Java, R, PHP), information technology, data analysis, operating system fundamentals, web technologies, data structures, data communication and networking, Unix programming, and many more are covered in the program curriculum. Additionally,</p>
+                <ul>
+                    <li>I received the <a href="https://www.studyinindia.gov.in/" class="community_link">SII scholarship</a> to study in India for my undergraduate degree.</li>
+                    <li>In addition to the core subjects mentioned above, I am encouraged to learn and participate in soft skills, club activities, venture development, sports, and many other activities.</li>
+                </ul>
+            </div>
+           
+            <div class="acad_container_2">
+                <h1 class="para-header">Languages</h1>
+                <div class="technologies-span tech-span"><span class="lang_1">US</span> English <span class="lang_2">(Expert)</span></div>
+                <div class="technologies-span tech-span"><span class="lang_1">NG</span> Hausa <span class="lang_2">(Native)</span></div>
+                <div class="technologies-span tech-span"><span class="lang_1">SA</span> Arabic <span class="lang_2">(Conversational)</span></div>
+            </div>
+        </div>
+
+        <div class="main_academic">
+                <div class="acad_container_1">
+                    <h1 class="para-header">National Diploma in Computer Science</h1>
+                    <p><span class="lang_2">Nuhu Bamalli Polytecnic (Zaria, Nigeria) 2018-2021</span></p>
+                    <p class="para-acad-1">I obtained my National Diploma in Computer Science, which I came out with a flying colour between 2018-2021.</p>
+                    <p class="para-header">Higher Secondary School</p>
+                    <p><span class="lang_2">Lawal Aliyu Academy, Zaria - Kaduna, Nigeria.</span></p>
+                    <p class="para-acad-1">I studied science subjects, including Information Technology, Physics, Mathematics, Biology, and Chemistry. While for my Junior and Primary Education, I was a student at Al-Huda Centre for Islamic and Science Education.</p>
+                </div>
+               
+                <div class="acad_container_2">
+                    <h1 class="para-header">Community Activities</h1>
+                    <p class="para-acad-1">CodeX Club · GITAM University</p>
+                    <p><span class="lang_2">August 2022 - Backend Lead & Technical Support</span></p> 
+                    <p class="para-acad-1">GITAM University's CodeX is a student-run coding and technology club. I'm a CodeX club member. Check the <a href="https://linktr.ee/CodeXGitam" target="_blank" class="community_link">club website.</a></p>
+                </div>
+        </div>
+
+        <div class="main_academic">
+            <div class="acad_container_1" id="certifications">
+                <h1 class="para-header">Certificates</h1>
+                <ul class="Current_list">
+                    <li>National Diploma in Computer Science, 20218 - 2021.</li>
+                    <li>National Digital Economy Policy and Strategy, Digital Nigeria - 2020</li>
+                    <li>Introduction to Ethical Hacking, Great Learning Academy, India - 2022.</li>
+                    <li>Cousera Course Cartificate(s) - 2021.</li>
+                    <li>Responsive Web Design, FreeCodeCamp - 2022.</li>
+                    <li>Academy Halogem, School of Security Technology - 2022.</li>
+                    <li>CodeX Club, GITAM University - 2023.</li>
+                    <li>And there are many more.</li>
+                </ul>
+                <button class="button-85" role="button"><div class="certificates_link"><a href="./certificate.html" target="_blank">Check the Certificates</a></div></button>
+            </div>
+           
+            <div class="acad_container_2">
+                <h1 class="para-header">Current Activities</h1>
+                <ul class="Current_list">
+                    <li>I'm learning about cybersecurity at International Information System Security Certification Consortium <a href="https://www.credly.com/users/iliyasu-mustapha-iliyasu" target="_blank" class="community_link">(ISC)<sup>2</sup>.</a></li>
+                    <li>Learning about cybersecurity, penetration testing, and ethical hacking on <a href="https://tryhackme.com/signup?referrer=64148e1a308b1f006122df31" target="_blank" class="community_link">TryHackMe.</a></li>
+                    <li>To gain technical expertise and recognized credentials in various Microsoft technologies on <a href="https://learn.microsoft.com/en-us/users/khalifamustapha-9614/" target="_blank" class="community_link">Microsoft.</a></li>
+                    <li>To specialize in networking and telecommunications equipment, software, and services on <a href="https://www.coursera.org/" target="_blank" class="community_link">Coursera.</a></li>
+                </ul>
+            </div>
+       </div>
+    </section>
+
+    <section class="projects_section">
+        <header>
+        <div class="title-section">
+            <h1>Pro<span>jects</span></h1>
+            <span class="titile-bg">Projects</span>
+        </div>
+
+        <div class="page-number">
+            <h2>03</h2>
+        </div>
+        </header>
+
+        <main class="proj-container" id="lightgallery">
+            <div class="projects-img">
+                <img src="./images/sandwich.PNG" alt="projects">
+                <div class="projects-icon" data-src="">
+                    <a href="https://youtu.be/iHnp8Vd2cGU">
+                        <img src="./icons/vector.svg" alt="">
+                    </a>
+                </div>
+                <div class="projects-content">
+                    <h2>Sandwich</h2>
+                </div>
+            </div>
+
+            <div class="projects-img">
+                <img src="./images/calculator.PNG" alt="projects">
+                <div class="projects-icon" data-src="">
+                    <a href="https://youtu.be/7vFaU_2D2bM">
+                        <img src="./icons/vector.svg" alt="">
+                    </a>
+                </div>
+                <div class="projects-content">
+                    <h2>Calculator</h2>
+                </div>
+            </div>
+
+            <div class="projects-img">
+                <img src="./images/OneS.png" alt="projects">
+                <div class="projects-icon" data-src="">
+                    <a href="https://youtu.be/UEf-bwfGlOE">
+                        <img src="./icons/vector.svg" alt="">
+                    </a>
+                </div>
+                <div class="projects-content">
+                    <h2>Oneshoot</h2>
+                </div>
+            </div>
+
+            <div class="projects-img">
+                <img src="./images/digitalmedia.PNG" alt="projects">
+                <div class="projects-icon" data-src="">
+                    <a href="https://youtu.be/PUurDiGeAj0">
+                        <img src="./icons/vector.svg" alt="">
+                    </a>
+                </div>
+                <div class="projects-content">
+                    <h2>Digitalmedia</h2>
+                </div>
+            </div>
+
+            <div class="projects-img">
+                <img src="./images/SUGP.png" alt="projects">
+                <div class="projects-icon" data-src="">
+                    <a href="https://youtu.be/_CJKcvllwJs">
+                        <img src="./icons/vector.svg" alt="">
+                    </a>
+                </div>
+                <div class="projects-content">
+                    <h2>SUG Payment</h2>
+                </div>
+            </div>
+
+            <div class="projects-img">
+                <img src="./images/background.jpg" alt="projects">
+                <div class="projects-icon" data-src="">
+                    <a href="#">
+                        <img src="./icons/vector.svg" alt="">
+                    </a>
+                </div>
+                <div class="projects-content">
+                    <h2>Others are Coming Soon...</h2>
+                </div>
+            </div>
+        </main>    
+    </section>
+
+    <section class="Get-in-Touch_Section">
+        <header>
+        <div class="title-section">
+            <h1>Get in <span>Touch</span></h1>
+            <span class="titile-bg">Get in <span>Touch</span></span>
+        </div>
+
+        <div class="page-number">
+            <h2>04</h2>
+        </div>
+        </header>
+
+        <main class="get-in">
+            <div class="get-in-contact">
+                 <h2>DON'T BE SHY!</h2>
+                 <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                 <h3>ADDRESS POINT</h3>
+                 <p>No. 58 K/K Zaria City, Kaduna - Nigeria.</p>
+                 <h3>MAIL ME</h3>
+                 <p>khaliphamustapha123@gmail.com</p>
+                 <h3>CALL ME</h3>
+                 <p>+2347036373423</p>
+
+                 <div class="social-media-icons">
+                    <a href="https://www.facebook.com/khalifa.mustapha.2/" target="_blank">
+                        <img src="./icons/facebook.png" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/khalipha_mustapha/" target="_blank">
+                        <img src="./icons/instagram.png" alt="instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/khalifa-mustapha/" target="_blank">
+                        <img src="./icons/linkedin.png" alt="linkedin">
+                    </a>
+                    <a href="https://twitter.com/KhalifaMustaph6" target="_blank">
+                        <img src="./icons/tweeter.png" alt="twitter">
+                    </a>
+                </div>
+            </div> 
+            
+            <div class="contact_container">
+                 <form action="https://formsubmit.co/khaliphamustapha123@gmail.com" method="POST">
+                     <input type="text" name="Name" placeholder="Enter your name...">
+                     <input type="email" name="Email" placeholder="Enter your email...">
+                     <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+
+                <div class="submit_btn">
+                    <input type="submit" value="SEND MESSAGE" class="main_button">
+                </div>
+            </form>
+        </div>
+        </main>
+    </section>
+
+    <footer>
+        <div class="footer_top">
+            <div class="footer_top_left">
+                <p>&copy;2023. Designed and developed by Khalifa Mustapha.</p>
+            </div>
+            <nav class="footer_top_right">
+                <a href="javascript:void()" onclick="document.getElementById('experiences').scrollIntoView({behavior: 'smooth'});">Experiences</a>
+                <a href="javascript:void()" onclick="document.getElementById('certifications').scrollIntoView({behavior: 'smooth'});">Certifications</a>
+                <a href="https://khalifamustapha.medium.com/" target="_blank">Blog</a>
+                <a href="./assent/Mustapha_Resume .pdf" download="Résumé" title="Download PDF, 1.43 MB">Résumé</a>
+                <a href="mailto:mustaphailiyasu070@gmail.com">Contact</a>
+            </nav>
+        </div>
+
+        <div class="footer_bottom">
+            <nav class="footer_bottom_left">
+                <a href="https://www.linkedin.com/in/khalifa-mustapha/" target="_blank">LinkedIn</a>
+                <a href="https://www.facebook.com/khalifa.mustapha.2" target="_blank">Facebook</a>
+                <a href="https://twitter.com/KhalifaMustaph6" target="_blank">Twitter</a>
+                <a href="https://github.com/KhalifaMustapha" target="_blank">GitHub</a>
+            </nav>
+            <div class="footer_bottom_right">
+                <a href="javascript:void()" onclick="window.scrollTo({'top':0, 'behavior':'smooth'})">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <!-- scripts -->
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
